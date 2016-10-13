@@ -44,7 +44,7 @@ public class SearchActivity extends ActionBarActivity {
     {
         EditText etId = (EditText) findViewById(R.id.EditTextId);
         String idToSearch = etId.getText().toString();
-        Firebase myFirebaseRef = new Firebase("https://helloworldtest1.firebaseio.com/student");
+        Firebase myFirebaseRef = new Firebase("https://himitsuno-fecb4.firebaseio.com");
         Query queryRef = myFirebaseRef.orderByChild("studentId").equalTo(idToSearch);
         queryRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override

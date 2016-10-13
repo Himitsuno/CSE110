@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         String name = etName.getText().toString();
         String id = etId.getText().toString();
 
-        Firebase myFirebaseRef = new Firebase("https://helloworldtest1.firebaseio.com/student");
+        Firebase myFirebaseRef = new Firebase("https://himitsuno-fecb4.firebaseio.com");
         Student student = new Student();
         student.setName(name);
         student.setStudentId(id);
