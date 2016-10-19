@@ -1,8 +1,5 @@
 package com.software.helloworld;
 
-/**
- * Created by kshtz on 1/28/2016.
- */
 public class Student {
     String name;
     String studentId;
